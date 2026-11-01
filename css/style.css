@@ -11,7 +11,7 @@ a {
 }
 
 h2 { /* modifica todos os h2 da pagina */
-    margin: 40px 0 16px 16px;
+    margin: 0px 0 16px 16px;
     width: 100%;
     max-width: 1000px;
     text-align: left;
@@ -86,20 +86,19 @@ nav a:hover {
 /* -------------------------------------------------------------------- */
 
 main { /* contem as sessoes: topo, animais, adotar, visitas e contacto */
-    margin-top: 70px;   /* separa as sessoes do header */
 }
 
-.contentor {
-    margin: 0 auto; /* centraliza o contenedor */
+.contentor { /* contem apenas as sessoes: animais, adotar, visitas e contacto */
+    margin: 0 auto; /* centraliza o contentor */
     width: 100%;
     max-width: 1000px;
-    padding: 0; /* aplica padding-left e padding-right de 16px */
+    padding-top: 70px; /* corrige o padding dos h2 ao clicar nos links do menu de navegacao */
     /* background-color: rgba(0, 128, 0, 0.358); apenas para visualizacao do contenedor */
 }
 
 /* --- topo -------------------------------------------------------- */
 
-.topo { /* a primeira sessao do main da pagina */ 
+.topo { /* está fora do contentor principal, pois ocupa toda a largura */ 
     width: 100%;
     background-color: #1d1148;
     display: flex;
@@ -125,7 +124,7 @@ main { /* contem as sessoes: topo, animais, adotar, visitas e contacto */
     color: white;
 }
 
-.botao { /* taplica-se tambem ao botao do formnulario de contacto */
+.botao { /* igual para os dois botoes da pagina */
     color: white;
     font-size: 16px;
     font-weight: bold;
@@ -134,11 +133,11 @@ main { /* contem as sessoes: topo, animais, adotar, visitas e contacto */
     border-radius: 50px;
     margin-top: 24px;
     border: none;
-    transition: 0.3s ease; /* adiciona uma transição suave para a mudança de cor nbo modo hover */
+    transition: 0.3s ease; /* adiciona uma animacao a mudança de cor do modo hover */
 }
 
 
-.botao:hover{ /* taplica-se tambem ao botao do formnulario de contacto */
+.botao:hover{ /* igual para os dois botoes da pagina */
     background-color: #b8006a;
 }
 
