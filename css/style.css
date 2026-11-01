@@ -24,7 +24,6 @@ h3 { /* modifica todos os h3 da pagina */
     font-size: 24px;
 }
 
-
 /* -------------------------------------------------------------------- */
 /* --- inicio do header ----------------------------------------------- */
 /* -------------------------------------------------------------------- */
@@ -149,7 +148,6 @@ main { /* contem as sessoes: topo, animais, adotar, visitas e contacto */
     align-items: center;
     justify-content: center;
 }
-
 
 .contentor-animais{
     display: flex; /* faz com que os cartoes se adaptem responsivamente */
@@ -311,7 +309,6 @@ input, select, textarea {
     font-size: 16px;
 }
 
-
 /* -------------------------------------------------------------------- */
 /* --- inicio do footer ----------------------------------------------- */
 /* -------------------------------------------------------------------- */
@@ -326,7 +323,6 @@ footer {
     width: 100%;
     height: 80px;
 }
-
 
 /* imagem do modelo a copiar, para utilizar como referencia */
 /* .modelo{
