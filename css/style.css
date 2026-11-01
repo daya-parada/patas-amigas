@@ -112,6 +112,7 @@ main { /* contem as sessoes: topo, animais, adotar, visitas e contacto */
     font-size: 40px;
     margin: 0;
 }
+
 .topo p{
     color: white;
     font-size: 18px;
@@ -134,7 +135,6 @@ main { /* contem as sessoes: topo, animais, adotar, visitas e contacto */
     border: none;
     transition: 0.3s ease; /* adiciona uma animacao a mudança de cor do modo hover */
 }
-
 
 .botao:hover{ /* igual para os dois botoes da pagina */
     background-color: #b8006a;
@@ -177,7 +177,7 @@ main { /* contem as sessoes: topo, animais, adotar, visitas e contacto */
     margin-top: 18px;
     width: 260px;
     border-radius: 16px;
-    }
+}
 
 .cartao p {
     font-size: 16px;
