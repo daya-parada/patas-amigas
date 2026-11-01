@@ -1,27 +1,27 @@
 body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif; /* letra Arial (com alternativas) */
-  color: #1d1148; /* texto `#1d1148` */
-  background-color: #f7f7f9;
-  line-height: 1.6; /* aplica a toda a pagina espaçamento entre-linhas*/
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif; /* letra Arial (com alternativas) */
+    color: #1d1148; /* texto `#1d1148` */
+    background-color: #f7f7f9;
+    line-height: 1.6; /* aplica a toda a pagina espaçamento entre-linhas*/
 }
 
 a {
-  text-decoration: none; /* remove o sublinhado de todos os links da pagina */
+    text-decoration: none; /* remove o sublinhado de todos os links da pagina */
 }
 
 h2 { /* modifica todos os h2 da pagina */
-  margin: 40px 0 16px 16px;
-  width: 100%;
-  max-width: 1000px;
-  text-align: left;
-  font-size: 28px;
+    margin: 40px 0 16px 16px;
+    width: 100%;
+    max-width: 1000px;
+    text-align: left;
+    font-size: 28px;
 }
 
 h3 { /* modifica todos os h3 da pagina */
-  margin: 5px;
-  padding: 0;
-  font-size: 24px;
+    margin: 5px;
+    padding: 0;
+    font-size: 24px;
 }
 
 
@@ -30,40 +30,39 @@ h3 { /* modifica todos os h3 da pagina */
 /* -------------------------------------------------------------------- */
 
 header {  /* contem todo o header da pagina, inclusive o contener do header */
-  width: 100%; /* faz com que o header ocupe toda largura da página, em qualquer resolucao */
-  background-color: white;
-  display: flex; 
-  justify-content: center;
-  align-items: center;
-  position: fixed;  /* position fixed pra que o menu resista ao scroll */
-  top: 0; /* top e left sao modificadores do position fixed */
-  left: 0;
-  z-index: 1000; /* evita que a etiqueta apareca por cima do menu */ 
-
+    width: 100%; /* faz com que o header ocupe toda largura da página, em qualquer resolucao */
+    background-color: white;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    position: fixed;  /* position fixed pra que o menu resista ao scroll */
+    top: 0; /* top e left sao modificadores do position fixed */
+    left: 0;
+    z-index: 1000; /* evita que a etiqueta apareca por cima do menu */ 
 }
 
 .contentor-header { /* flex-contener do header, contem a logo "Patas Amigas" e os links de navegacao*/
-  width: 100%;
-  max-width: 1000px; /* faz com que o header nao ultrapasse os 1000px */
-  height: 70px;
-  display: flex; /* aplica uma separacao para o header de 2 blocos, logo e navegacão */
-  align-items: center;
+    width: 100%;
+    max-width: 1000px; /* faz com que o header nao ultrapasse os 1000px */
+    height: 70px;
+    display: flex; /* aplica uma separacao para o header de 2 blocos, logo e navegacão */
+    align-items: center;
 }
 
 .logo { /* modifica apenas a palavra "Patas" */
-  color: #1d1148;
-  font-size: 24px;
-  font-weight: bold;
-  padding: 0 0 0 16px; /* padding-left */
+    color: #1d1148;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0 0 0 16px; /* padding-left */
 }
 
 .logo-destaque {  /* modifica apenas a palavra "Amigas" */
-  color: #e40084;
+    color: #e40084;
 }
 
 nav { /* links de navegacao */
-  flex: 1;
-  padding: 0 16px 0 0; /* padding-right */
+    flex: 1;
+    padding: 0 16px 0 0; /* padding-right */
 }
 
 nav ul {
@@ -74,12 +73,12 @@ nav ul {
 }
 
 nav a {
-  color: #1d1148;
-  text-decoration: none;
+    color: #1d1148;
+    text-decoration: none;
 }
 
 nav a:hover {
-  color: #b8006a;  /* aplica cor ao passar a rato ao link */
+    color: #b8006a;  /* aplica cor ao passar a rato ao link */
 }
 
 /* -------------------------------------------------------------------- */
@@ -87,7 +86,7 @@ nav a:hover {
 /* -------------------------------------------------------------------- */
 
 main { /* contem as sessoes: topo, animais, adotar, visitas e contacto */
-  margin-top: 70px;   /* separa as sessoes do header */
+    margin-top: 70px;   /* separa as sessoes do header */
 }
 
 .contentor {
@@ -101,88 +100,87 @@ main { /* contem as sessoes: topo, animais, adotar, visitas e contacto */
 /* --- topo -------------------------------------------------------- */
 
 .topo { /* a primeira sessao do main da pagina */ 
-  width: 100%;
-  background-color: #1d1148;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding: 60px 0 80px 0;
-  text-align: center;
+    width: 100%;
+    background-color: #1d1148;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px 0 80px 0;
+    text-align: center;
 }
 
 .topo h1{ /* o unico h1 da pagina */
-  color: white;
-  font-size: 40px;
-  margin: 0;
+    color: white;
+    font-size: 40px;
+    margin: 0;
 }
 .topo p{
-  color: white;
-  font-size: 18px;
-  margin-top: 7px;
-  margin-bottom: 40px;
+    color: white;
+    font-size: 18px;
+    margin-top: 7px;
+    margin-bottom: 40px;
 }
 
 .topo p {
-  color: white;
+    color: white;
 }
 
 .botao { /* taplica-se tambem ao botao do formnulario de contacto */
-  color: white;
-  font-size: 16px;
-  font-weight: bold;
-  background-color: #e40085;
-  padding: 18px 28px;
-  border-radius: 50px;
-  margin-top: 24px;
-  border: none;
-  transition: 0.3s ease; /* adiciona uma transição suave para a mudança de cor nbo modo hover */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #e40085;
+    padding: 18px 28px;
+    border-radius: 50px;
+    margin-top: 24px;
+    border: none;
+    transition: 0.3s ease; /* adiciona uma transição suave para a mudança de cor nbo modo hover */
 }
 
 
 .botao:hover{ /* taplica-se tambem ao botao do formnulario de contacto */
-  background-color: #b8006a;
+    background-color: #b8006a;
 }
 
 /* --- animais  ---------------------------------------------------- */
 
 #animais { /* sessao dos cartoes dos animais */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 
 .contentor-animais{
-  display: flex;
-  /* faz com que os cartoes se adaptem responsivamente */
-  flex-wrap: wrap; 
-  width: 100%;
-  max-width: 1000px;
-  /* background-color: #52529982; */
+    display: flex; /* faz com que os cartoes se adaptem responsivamente */
+    flex-wrap: wrap; 
+    width: 100%;
+    max-width: 1000px;
+    /* background-color: #52529982; apenas para visualizacao */
 } 
 
-.card-container{
-  flex: 1; /* faz com que os cartoes se adaptem responsivamente */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* /* background-color: #52529982; */
+.cartao-container{
+    flex: 1; /* faz com que os cartoes se adaptem responsivamente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #52529982; apenas para visualizacao */
 }
 
 .cartao {
-  max-width: 295px; /* max deve ser 300, considerando border 3px */
-  height: auto;
-  border: #1d1148 solid 3px; 
-  border-radius: 20px;
-  text-align: center;
+    max-width: 295px; /* o cartao deverá ter exatamente 300px de largura, considerando border 3px */
+    height: auto;
+    border: #1d1148 solid 3px; 
+    border-radius: 20px;
+    text-align: center;
 }
 
 .cartao img {
-  margin-top: 18px;
-  width: 260px;
-  border-radius: 16px;
-}
+    margin-top: 18px;
+    width: 260px;
+    border-radius: 16px;
+    }
 
 .cartao p {
     font-size: 16px;
@@ -192,129 +190,127 @@ main { /* contem as sessoes: topo, animais, adotar, visitas e contacto */
 }
 
 .selo-container {
-  position: absolute;
-  width: 295px;
-  text-align: right;
-  /* background-color: red; */
-  flex: 1;
-  padding-top: 30px;
+    position: absolute;
+    width: 295px;
+    text-align: right;
+    /* background-color: red; */
+    flex: 1;
+    padding-top: 30px;
 }
 
 .selo {   /* selo ´novo´ */
-  background-color: #e40084;
-  color: white;
-  padding: 7px 13px;
-  border-radius: 100px;
-  font-size: 14px;
-  font-weight: bold;
-  margin: 24px;
+    background-color: #e40084;
+    color: white;
+    padding: 7px 13px;
+    border-radius: 100px;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 24px;
 }
 
 /* --- adotar  ----------------------------------------------------- */
 
 #adotar { /* sessao Como adotar */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #adotar h2 {
-  margin-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 #adotar ol {
-  font-size: 18px;
-
+    font-size: 18px;
 }
 
 #adotar li {
-  margin-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 /* --- visitas  ---------------------------------------------------- */
 
 #visitas { /* sessao Horario de visitas */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.contentor-table table { /* a tabela de horarios terá no max 500px */
-  max-width: 500px;
+.contentor-table table { /* a tabela de horarios deverá ter no max 500px */
+    max-width: 500px;
 }
 
 #visitas table, #visitas th, #visitas td {
-  border: 1px solid lightgrey;
-  border-collapse: collapse;
-margin-left: 16px;
+    border: 1px solid lightgrey;
+    border-collapse: collapse;
+    margin-left: 16px;
 }
 
 #visitas th {
-  padding: 12px;
-  padding-left: 20px;
-  min-width: 217px;
-  background-color: #1d1148;
-  color: white;
-  text-align: left;
+    padding: 12px;
+    padding-left: 20px;
+    min-width: 217px;
+    background-color: #1d1148;
+    color: white;
+    text-align: left;
 }
 
 #visitas td {
-  padding: 12px;
-  padding-left: 20px;
-  min-width: 215px;
-  background-color: white;
+    padding: 12px;
+    padding-left: 20px;
+    min-width: 215px;
+    background-color: white;
 }
 
 /* --- contacto  --------------------------------------------------- */
 
 #contacto {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 46px;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 46px;
 }
 
 form {
-  display: flex;
-  flex-direction: column;
-  padding: 26px;
-  max-width: 447px; /* max width fica no max 500, considerando o padding de 26px para cada lado */
-  background-color: white;
-  border-radius: 20px;
-  margin-top: 16px;
+display: flex;
+    flex-direction: column;
+    padding: 26px;
+    max-width: 447px; /* max width fica no max 500, considerando o padding de 26px para cada lado */
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 16px;
     margin-left: 16px;
-  box-shadow: 2px 2px 10px rgb(0 0 0 / 10%);
+    box-shadow: 2px 2px 10px rgb(0 0 0 / 10%);
 }
 
 label {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 
 .botao-form { /* taplica-se tambem ao botao do formnulario de contacto */
-  color: white;
-  font-size: 16px;
-  font-weight: bold;
-  background-color: #e40085;
-  padding: 10px 28px;
-  border-radius: 50px;
-  margin-top: 10px;
-  border: none;
-   transition: 0.3s ease; /* adiciona uma transição suave para a mudança de cor nbo modo hover */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #e40085;
+    padding: 10px 28px;
+    border-radius: 50px;
+    margin-top: 10px;
+    border: none;
+    transition: 0.3s ease; /* adiciona uma transição suave para a mudança de cor nbo modo hover */
 }
 
-.botao-form:hover { /* taplica-se tambem ao botao do formnulario de contacto */
-  background-color: #b8006a;
+.botao-form:hover { /* aplica-se tambem ao botao do topo da pagina */
+    background-color: #b8006a;
 }
 
 input, select, textarea {
-  padding: 10px;
-  border-radius: 5px;
-  margin-bottom: 23px;
-  border: 1px solid #c6c6c6;
-  min-width: 430px;
-  font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 23px;
+    border: 1px solid #c6c6c6;
+    min-width: 430px;
+    font-size: 16px;
 }
 
 
@@ -323,19 +319,19 @@ input, select, textarea {
 /* -------------------------------------------------------------------- */
 
 footer {
-  color: white;
-  text-align: center;
-  background-color: #1d1148;
-  display: flex;
-  align-items: center; /*Eixo x*/
-  justify-content: center; /*Eixo y*/
-  width: 100%;
-  height: 80px;
+    color: white;
+    text-align: center;
+    background-color: #1d1148;
+    display: flex;
+    align-items: center; /*Eixo x*/
+    justify-content: center; /*Eixo y*/
+    width: 100%;
+    height: 80px;
 }
 
 
-/* modelo a copiar */
-.modelo{
+/* imagem do modelo a copiar, para utilizar como referencia */
+/* .modelo{
     position: absolute;
     top: 0;
     left: 0;
@@ -344,5 +340,5 @@ footer {
     background-image: url(../img/modelo.png);
     opacity: 0.5; 
     z-index: -1;
-}
+} */
 
