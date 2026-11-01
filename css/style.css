@@ -271,7 +271,7 @@ main { /* contem as sessoes: topo, animais, adotar, visitas e contacto */
 }
 
 form {
-display: flex;
+    display: flex; /* o display flex garante que os campos ocupem toda a largura */
     flex-direction: column;
     padding: 26px;
     max-width: 447px; /* max width fica no max 500, considerando o padding de 26px para cada lado */
@@ -286,8 +286,7 @@ label {
     font-weight: bold;
 }
 
-
-.botao-form { /* taplica-se tambem ao botao do formnulario de contacto */
+.botao-form { /* aplica-se tambem ao botao do formnulario de contacto */
     color: white;
     font-size: 16px;
     font-weight: bold;
