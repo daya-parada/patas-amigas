@@ -1,4 +1,3 @@
-# patas-amigas
 # Exercício de consolidação: site Patas Amigas
 
 Replica a página da imagem `modelo.png`, a homepage de uma associação de adoção de animais.
